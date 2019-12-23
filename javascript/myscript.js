@@ -48,7 +48,7 @@ theTime.add({
 	duration: 2000,
 	update: function(percent) {
 		var thePercent = Math.round(percent.progress);
-		document.querySelector('.container .sup').innerHTML= "Nhịp tim của anh " + (thePercent+899);
+		document.querySelector('.container .sup').innerHTML= "Phù...Nhịp tim của anh là... " + (thePercent+899);
 	}
 });
 theTime.add({
@@ -189,7 +189,7 @@ var cantho =document.querySelector('.main');
 cantho.insertAdjacentHTML('afterend', '<div class="author mt-5"><div class="row"><div class="col-12"><div class="me text-danger text-right"></div></div></div></div>');
 
 document.querySelector('.Description .modal-title').innerHTML = '<i class="far fa-comment-alt"></i>&nbsp;Nhịp tim như vậy là vì';
-document.querySelector('.Description .modal-body').innerHTML = 'Anh thích em <i class="fas fa-heart"></i> ';
+document.querySelector('.Description .modal-body').innerHTML = 'Anh yêuuuu emmm á~~~ <i class="fas fa-heart"></i> ';
 var author = document.querySelector('.author .me');author.style.opacity = "0.5";
-author.innerHTML = "Bản quyền thuộc về<a href='https://anonyviet.com'>Lmint<a>";
-author.style.opacity = "0";
+//author.innerHTML = "Bản quyền thuộc về<a href='https://anonyviet.com'>Lmint<a>";
+//author.style.opacity = "0";
